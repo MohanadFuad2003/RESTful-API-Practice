@@ -6,7 +6,7 @@ namespace StudentDataAccsessLayer
     public class TeacherData
     {
         private readonly static string connectionString =
-            "Server=localhost;Database=StudentsDB;User Id=sa;Password=123456;Encrypt=False;TrustServerCertificate=True;Connection Timeout=30;";
+            "Server=localhost;Database=StudentsDB;Trusted_Connection=True;Encrypt=False;TrustServerCertificate=True;Connection Timeout=30;";
 
         public static int AddTeacher(TeacherDTO teacher)
         {

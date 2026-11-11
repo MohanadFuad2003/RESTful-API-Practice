@@ -1,0 +1,20 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+packages/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.VC.db
+*.ipch
+ipch/
+
+# OS files
+desktop.ini
+Thumbs.db
